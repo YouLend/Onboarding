@@ -4592,7 +4592,7 @@
   "auth": {
     "type": "bearer",
     "bearer": {
-      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik0wUXdOMEl5TnpRMVJrRXhNa1pGTlVWRU5UQTJRalV6UWtRMVJUY3dORE0xUVVVM05rTkVRZyJ9.eyJodHRwOi8veW91bGVuZC5jb20vY2xhaW1zL2xlbmRpbmdQYXJ0bmVySWQiOiIyYjhiN2ZkMC1lNjJiLTQ2ZGYtYjc1ZC1jNjk1MzhkZTc5ZDciLCJpc3MiOiJodHRwczovL3lvdWxlbmQtc3RhZy5ldS5hdXRoMC5jb20vIiwic3ViIjoiekE5cXdiYkJaZ2k5TThsdmhzbkpMNFViejVCcWk0UGJAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vc3RhZ2luZy55b3VsZW5kYXBpLmNvbS9vbmJvYXJkaW5nIiwiaWF0IjoxNTc4MzIwNTI4LCJleHAiOjE1Nzg0MDY5MjgsImF6cCI6InpBOXF3YmJCWmdpOU04bHZoc25KTDRVYno1QnFpNFBiIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.lVw8Wr9bCqG_HlRzgR8tu_TMDhw8AH64ctthOadVFDWuYHWlGcp7Tvn9ijMfODiBwnxe-p1S_ocFZDt6E7VAZ7N0MmwrKRh078oOjpncoQw_bnQcZcBqqnd6RW1C0Xe_reMc_KKtLjTLCNXXG42mkcRdfUzrPeHC86fhmwkjUdCYff0KE5Nxsnyn5HLrbQB7btA6qu46CByTUZLRH9u7n5ksmIdqAVq5DaqpfbRuhl9bjUR52zNMx7RfXzBcDTqT-GTTCMFfvuaX5nfmDhsuxuwr7eUoLCvakhQuBMo10NaVcV3ku9yUGito2DFnqm5ZQN2pauHeMyDC2B-iLTWK5A"
+      "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlEwWTBSVGcwUXpFNFEwWkRRVVF6TkRORU9EZzJOelJDTXpkQk5FWXpSVFpFUkROQ1Jqa3hOZyJ9.eyJpc3MiOiJodHRwczovL3lvdWxlbmQtZGV2LmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJLdEtPdGNTeUtYZE52T01SNDFkcnhYOVowak9jTzZvN0BjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkuZGV2LnlvdWxlbmQuY29tIiwiaWF0IjoxNTgwMjEwNTYwLCJleHAiOjE1ODAyOTY5NjAsImF6cCI6Ikt0S090Y1N5S1hkTnZPTVI0MWRyeFg5WjBqT2NPNm83IiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.J_KU3n_Id9xYFgWH1_d5ZWvX1RIlMEDomOday3rN4Adg7nC8F7PTFpl4fDr-OA-ONId5oHCDleP9-W9DcMN_rp0OhW7koUUAyus5WBWJtlNOhvJ4BlNVHBqL8doR5Ro8g5ud36H0BXI7ntynzw3wATg7NeQUZ2xgw1BR-jDBp7PyRM4OTbAgKGPgqupB4f8dmWPTMGzbj5AFWIVeHK31488bviAMj8FOxJzIS9eK1imi36GYR0pMoh9iid3HoAJiYLok4s25VB5fHiFv90fX_r1CYuXpsgkeNeyIHBVUJMfAZlaj-kFL5phzoZfADtgpmRxGdj2FYXsgODmFiax-wg"
     }
   },
   "event": [
@@ -4619,15 +4619,15 @@
   ],
   "variable": [
     {
-      "id": "c98fb6aa-314e-4f98-a00c-027c797fd83c",
+      "id": "bdde8de7-05e8-44c6-ad4c-19d44556a208",
       "key": "lead",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d3632b80-5ec9-4ca5-ad2e-63cdf9b18eb0",
+      "id": "4d8b8ac0-c035-419d-90c7-3f0bdd9eaf9d",
       "key": "host",
-      "value": "staging",
+      "value": "dev",
       "type": "string"
     }
   ]
