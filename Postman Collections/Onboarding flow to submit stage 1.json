@@ -1,0 +1,1240 @@
+{
+	"info": {
+		"_postman_id": "9a7e356a-42fe-40ae-9178-bdc82b19e789",
+		"name": "Onboading flow to submit stage 1",
+		"description": "Requests marked * require a file to be uploaded",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Onboarding Complete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3aa4d965-5eb1-40da-8538-f4dc5d41943d",
+						"exec": [
+							"let body = JSON.parse(pm.request.body);",
+							"",
+							"let companyName = body.companyName;",
+							"pm.variables.set(\"companyName\", companyName);",
+							"let thirdPartyCustomerId = body.thirdPartyCustomerId;",
+							"pm.variables.set(\"thirdPartyCustomerId\", thirdPartyCustomerId);",
+							"let thirdPartyLeadId = body.thirdPartyLeadId;",
+							"pm.variables.set(\"thirdPartyLeadId\", thirdPartyLeadId);",
+							"let countryISOCode = body.countryISOCode;",
+							"pm.variables.set(\"countryISOCode\", countryISOCode);",
+							"let loanCurrencyISOCode = body.loanCurrencyISOCode;",
+							"pm.variables.set(\"loanCurrencyISOCode\", loanCurrencyISOCode);",
+							"let monthlyCardRevenue = body.monthlyCardRevenue;",
+							"pm.variables.set(\"monthlyCardRevenue\", monthlyCardRevenue);",
+							"let numberOfPaymentsPerMonth = body.numberOfPaymentsPerMonth;",
+							"pm.variables.set(\"numberOfPaymentsPerMonth\", numberOfPaymentsPerMonth);",
+							"let sweepPercentage = body.sweepPercentage;",
+							"pm.variables.set(\"sweepPercentage\", sweepPercentage);",
+							"let monthsTrading = body.monthsTrading;",
+							"pm.variables.set(\"monthsTrading\", monthsTrading);",
+							"let loanAmount = body.loanAmount;",
+							"pm.variables.set(\"loanAmount\", loanAmount);",
+							"let keyContactName = body.keyContactName;",
+							"pm.variables.set(\"keyContactName\", keyContactName);",
+							"let companyType = body.companyType;",
+							"pm.variables.set(\"companyType\", companyType);",
+							"let companyWebsite = body.companyWebsite;",
+							"pm.variables.set(\"companyWebsite\", companyWebsite);",
+							"let companyNumber = body.companyNumber;",
+							"pm.variables.set(\"companyNumber\", companyNumber);",
+							"//let formationDate = body.formationDate;",
+							"//pm.variables.set(\"formationDate\", formationDate);",
+							"let companyDescription = body.companyDescription;",
+							"pm.variables.set(\"companyDescription\", companyDescription);",
+							"let vatNumber = body.vatNumber;",
+							"pm.variables.set(\"vatNumber\", vatNumber);",
+							"let mid = body.mid;",
+							"pm.variables.set(\"mid\", mid);",
+							"",
+							"let line1 = body.line1;",
+							"pm.variables.set(\"line1\", line1);",
+							"",
+							"let line2 = body.line2;",
+							"pm.variables.set(\"line2\", line2);",
+							"let line3 = body.line3;",
+							"pm.variables.set(\"line3\", line3);",
+							"let city = body.city;",
+							"pm.variables.set(\"city\", city);",
+							"let region = body.region;",
+							"pm.variables.set(\"region\", region);",
+							"let areaCode = body.areaCode;",
+							"pm.variables.set(\"areaCode\", areaCode);",
+							"let country = body.country;",
+							"pm.variables.set(\"country\", country);",
+							"",
+							"let contactPhoneNumber = body.contactPhoneNumber;",
+							"pm.variables.set(\"contactPhoneNumber\", contactPhoneNumber);",
+							"let contactEmailAddress = body.contactEmailAddress;",
+							"pm.variables.set(\"contactEmailAddress\", contactEmailAddress);",
+							"let notificationURL = body.notificationURL;",
+							"pm.variables.set(\"notificationURL\", notificationURL);",
+							"let additionalInfo = body.additionalInfo;",
+							"pm.variables.set(\"additionalInfo\", additionalInfo);",
+							"",
+							"",
+							"let additionalProp1 = body.additionalProp1;",
+							"pm.variables.set(\"additionalProp1\", additionalProp1);",
+							"let additionalProp2 = body.additionalProp2;",
+							"pm.variables.set(\"additionalProp2\", additionalProp2);",
+							"let additionalProp3 = body.additionalProp3;",
+							"pm.variables.set(\"additionalProp3\", additionalProp3);",
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"leadId returned\", function() {",
+							"    pm.expect(pm.response.json().leadId).to.be.a('string')",
+							"});",
+							"pm.test(\"leadURL returned\", function() {",
+							"    pm.expect(pm.response.json().leadURL).to.be.a('string')",
+							"});",
+							"pm.test(\"signUpURL returned\", function() {",
+							"    pm.expect(pm.response.json().signUpURL).to.be.a('string')",
+							"});",
+							"",
+							"",
+							"let leadId = pm.response.json().leadId;",
+							"",
+							"pm.variables.set(\"leadId\", leadId);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"thirdPartyCustomerId\": \"7654321\",\r\n  \"thirdPartyLeadId\": \"1231231\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 1000,\r\n  \"numberOfPaymentsPerMonth\": 150,\r\n  \"sweepPercentage\": 15,\r\n  \"monthsTrading\": 14,\r\n  \"loanAmount\": 5500,\r\n  \"keyContactName\": \"Jacobo\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"testcompany\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"123456\",\r\n  \"formationDate\": \"\",\r\n  \"companyDescription\": \"Description!\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"440123456789\",\r\n  \"contactEmailAddress\": \"jacobopineiro@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get lead details",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "33d6d00d-4122-4e3f-9b81-6b2d19d29caf",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "1b637699-6e87-41d7-940e-95007da5b053",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { ",
+							"    pm.response.to.have.status(200); });",
+							"",
+							"pm.test(\"leadSourceLendingPartnerId returned\", function () {",
+							"    pm.expect(pm.response.json().leadSourceLendingPartnerId).to.be.a('string')});",
+							"    ",
+							"pm.test(\"onboardingState returned\", function () {",
+							"    pm.expect(pm.response.json().onboardingState).to.be.a('string')});",
+							"    ",
+							"pm.test(\"organisationDetailsStepComplete returned\", function () {",
+							"    pm.expect(pm.response.json().organisationDetailsStepComplete).to.be.a('boolean')});",
+							"    ",
+							"pm.test(\"paymentDataStepComplete returned\", function () {",
+							"    pm.expect(pm.response.json().paymentDataStepComplete).to.be.a('boolean')});",
+							"    ",
+							"pm.test(\"offerStepComplete returned\", function () {",
+							"    pm.expect(pm.response.json().offerStepComplete).to.be.a('boolean')});",
+							"    ",
+							"pm.test(\"kycDocumentsStepComplete returned\", function () {",
+							"    pm.expect(pm.response.json().kycDocumentsStepComplete).to.be.a('boolean')});",
+							"",
+							"pm.test(\"companyName isCorrect\", function () {",
+							"    pm.expect(pm.response.json().companyName).to.equal(pm.variables.get(\"companyName\"))});",
+							"    ",
+							"pm.test(\"leadType equals 'Api'\", function () {",
+							"    pm.expect(pm.response.json().leadType).to.equal('Api')});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/details",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get organisation details",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "772e56ab-3aca-4b80-b273-1ccaba397f19",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); });\r",
+							"pm.test(\"leadId is correct\", function() {\r",
+							"    pm.expect(pm.response.json().leadId).to.equal(pm.variables.get(\"leadId\"))});\r",
+							"\r",
+							"console.log(pm.response.json().companyName)\r",
+							"pm.test(\"companyName isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.companyName).to.equal(pm.variables.get(\"companyName\"))});\r",
+							"\r",
+							"pm.test(\"companyNumber isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.companyNumber).to.equal(pm.variables.get(\"companyNumber\"))});\r",
+							"    \r",
+							"//console.log(pm.response.json().organisationDetails.companyNumber)\r",
+							"pm.test(\"vatNumber isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.vatNumber).to.equal(pm.variables.get(\"vatNumber\"))});\r",
+							"pm.test(\"formationDate returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.formationDate).to.be.a(\"string\")});\r",
+							"pm.test(\"companyType isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.companyType).to.equal(pm.variables.get(\"companyType\"))});\r",
+							"pm.test(\"addressLine1 isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().addressLine1).to.equal(pm.variables.get(\"line1\"))});\r",
+							"pm.test(\"addressLine2 isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().addressLine2).to.equal(pm.variables.get(\"line2\"))});\r",
+							"pm.test(\"addressLine3 isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().addressLine3).to.equal(pm.variables.get(\"line3\"))});\r",
+							"pm.test(\"city isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().city).to.equal(pm.variables.get(\"city\"))});\r",
+							"\r",
+							"pm.test(\"region isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().region).to.equal(pm.variables.get(\"region\"))});\r",
+							"pm.test(\"postcode isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().postcode).to.equal(pm.variables.get(\"areaCode\"))});\r",
+							"pm.test(\"country(address) returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.address.country).to.be.a(\"string\")});\r",
+							"    \r",
+							"pm.test(\"country(organisationDetails) returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.country).to.be.a(\"string\")});\r",
+							"    \r",
+							"pm.test(\"keyContactName isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.keyContactName).to.equal(pm.variables.get(\"keyContactName\"))});\r",
+							"\r",
+							"pm.test(\"website isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.website).to.equal(pm.variables.get(\"companyWebsite\"))});\r",
+							"    \r",
+							"pm.test(\"phoneNumber isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.phoneNumber).to.equal(pm.variables.get(\"contactPhoneNumber\"))});\r",
+							"    \r",
+							"pm.test(\"email isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.email).to.equal(pm.variables.get(\"contactEmailAddress\"))});\r",
+							"\r",
+							"pm.test(\"confirmedCreditSearch returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.confirmedCreditSearch).to.be.a(\"boolean\")});\r",
+							"\r",
+							"pm.test(\"significantPersons returned and is an array\", function() {\r",
+							"    pm.expect(pm.response.json().organisationDetails.significantPersons).to.be.an(\"array\")}); \r",
+							"\r",
+							"pm.test(\"industries returned and is an array\", function() {\r",
+							"    pm.expect(pm.response.json().organisationDetails.industries).to.be.an(\"array\")});\r",
+							"\r",
+							"    \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/organisationdetails",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"organisationdetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add organisation details",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a343e571-c63c-4ec7-9f29-1a545b95b280",
+						"exec": [
+							"pm.test(\"Status code is 204\", function () { \r",
+							"    pm.response.to.have.status(204); });\r",
+							"    \r",
+							"let body = JSON.parse(pm.request.body);\r",
+							"let companyName = body.companyName;\r",
+							"pm.variables.set(\"companyName\", companyName);\r",
+							"let keyContactName = body.keyContactName;\r",
+							"pm.variables.set(\"keyContactName\", keyContactName);\r",
+							"let companyType = body.companyType;\r",
+							"pm.variables.set(\"companyType\", companyType);\r",
+							"let companyWebsite = body.companyWebsite;\r",
+							"pm.variables.set(\"companyWebsite\", companyWebsite);\r",
+							"let companyNumber = body.companyNumber;\r",
+							"pm.variables.set(\"companyNumber\", companyNumber);\r",
+							"\r",
+							"let description = body.industries.description;\r",
+							"pm.variables.set(\"description\", description);\r",
+							"let vatNumber = body.vatNumber;\r",
+							"pm.variables.set(\"vatNumber\", vatNumber);\r",
+							"\r",
+							"\r",
+							"let line1 = body.line1;\r",
+							"pm.variables.set(\"line1\", line1);\r",
+							"\r",
+							"let line2 = body.line2;\r",
+							"pm.variables.set(\"line2\", line2);\r",
+							"let line3 = body.line3;\r",
+							"pm.variables.set(\"line3\", line3);\r",
+							"let city = body.city;\r",
+							"pm.variables.set(\"city\", city);\r",
+							"let region = body.region;\r",
+							"pm.variables.set(\"region\", region);\r",
+							"let areaCode = body.areaCode;\r",
+							"pm.variables.set(\"areaCode\", areaCode);\r",
+							"let country = body.country;\r",
+							"pm.variables.set(\"country\", country);\r",
+							"\r",
+							"let contactPhoneNumber = body.contactPhoneNumber;\r",
+							"pm.variables.set(\"contactPhoneNumber\", contactPhoneNumber);\r",
+							"let contactEmailAddress = body.contactEmailAddress;\r",
+							"pm.variables.set(\"contactEmailAddress\", contactEmailAddress);\r",
+							"let notificationURL = body.notificationURL;\r",
+							"pm.variables.set(\"notificationURL\", notificationURL);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"companyName\": \"emca\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"companyType\": \"ltd\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"country\": \"unitedKingdom\",\r\n  \"formationDate\": \"2000-11-28T16:47:21.880Z\",\r\n  \"keyContactName\": \"JP\",\r\n  \"contactPhoneNumber\": \"440123456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"description\": \"Description!\",\r\n  \"industries\": [\r\n    {\r\n      \"code\": \"01110\",\r\n      \"description\": \"Growing of cereals (except rice), leguminous crops and oil seeds\"\r\n    }\r\n  ],\r\n  \"confirmedCreditSearch\": true\r\n}\r\n",
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/organisationdetails",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"organisationdetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get organisation details Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "772e56ab-3aca-4b80-b273-1ccaba397f19",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { \r",
+							"    pm.response.to.have.status(200); });\r",
+							"pm.test(\"leadId is correct\", function() {\r",
+							"    pm.expect(pm.response.json().leadId).to.equal(pm.variables.get(\"leadId\"))});\r",
+							"\r",
+							"console.log(pm.response.json().companyName)\r",
+							"pm.test(\"companyName isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.companyName).to.equal(pm.variables.get(\"companyName\"))});\r",
+							"\r",
+							"pm.test(\"companyNumber isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.companyNumber).to.equal(pm.variables.get(\"companyNumber\"))});\r",
+							"    \r",
+							"//console.log(pm.response.json().organisationDetails.companyNumber)\r",
+							"pm.test(\"vatNumber isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.vatNumber).to.equal(pm.variables.get(\"vatNumber\"))});\r",
+							"pm.test(\"formationDate returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.formationDate).to.be.a(\"string\")});\r",
+							"pm.test(\"companyType isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.companyType).to.equal(pm.variables.get(\"companyType\"))});\r",
+							"pm.test(\"addressLine1 isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().addressLine1).to.equal(pm.variables.get(\"line1\"))});\r",
+							"pm.test(\"addressLine2 isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().addressLine2).to.equal(pm.variables.get(\"line2\"))});\r",
+							"pm.test(\"addressLine3 isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().addressLine3).to.equal(pm.variables.get(\"line3\"))});\r",
+							"pm.test(\"city isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().city).to.equal(pm.variables.get(\"city\"))});\r",
+							"\r",
+							"pm.test(\"region isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().region).to.equal(pm.variables.get(\"region\"))});\r",
+							"pm.test(\"postcode isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().postcode).to.equal(pm.variables.get(\"areaCode\"))});\r",
+							"pm.test(\"country(address) returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.address.country).to.be.a(\"string\")});\r",
+							"    \r",
+							"pm.test(\"country(organisationDetails) returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.country).to.be.a(\"string\")});\r",
+							"    \r",
+							"pm.test(\"keyContactName isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.keyContactName).to.equal(pm.variables.get(\"keyContactName\"))});\r",
+							"\r",
+							"pm.test(\"website isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.website).to.equal(pm.variables.get(\"companyWebsite\"))});\r",
+							"    \r",
+							"pm.test(\"phoneNumber isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.phoneNumber).to.equal(pm.variables.get(\"contactPhoneNumber\"))});\r",
+							"    \r",
+							"pm.test(\"email isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.email).to.equal(pm.variables.get(\"contactEmailAddress\"))});\r",
+							"\r",
+							"pm.test(\"confirmedCreditSearch returned\", function () {\r",
+							"    pm.expect(pm.response.json().organisationDetails.confirmedCreditSearch).to.be.a(\"boolean\")});\r",
+							"\r",
+							"pm.test(\"significantPersons returned and is an array\", function() {\r",
+							"    pm.expect(pm.response.json().organisationDetails.significantPersons).to.be.an(\"array\")}); \r",
+							"\r",
+							"pm.test(\"industries returned and is an array\", function() {\r",
+							"    pm.expect(pm.response.json().organisationDetails.industries).to.be.an(\"array\")});\r",
+							"\r",
+							"    \r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/organisationdetails",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"organisationdetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get KYC documents",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "79951db6-01b8-4263-80cc-c6d2c7a4216d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { ",
+							"    pm.response.to.have.status(200); });",
+							"  ",
+							"pm.test(\"companyDocuments returned and is an object\", function() {",
+							"    pm.expect(pm.response.json().companyDocuments).to.be.an(\"object\")}); ",
+							"pm.test(\"significantPersonDocuments returned and is an array\", function() {",
+							"    pm.expect(pm.response.json().significantPersonDocuments).to.be.an(\"array\")});",
+							"pm.test(\"bankStatements returned and is an object\", function() {",
+							"    pm.expect(pm.response.json().bankStatements).to.be.a(\"object\")});",
+							"pm.test(\"leadId is correct\", function() {",
+							"    pm.expect(pm.response.json().leadId).to.equal(pm.variables.get(\"leadId\"))});",
+							"pm.test(\"country returned\", function() {",
+							"    pm.expect(pm.response.json().country).to.be.a(\"string\")});",
+							"pm.test(\"companyType is correct\", function() {",
+							"    pm.expect(pm.response.json().companyType).to.equal(pm.variables.get(\"companyType\"))});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Significant Persons Complete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "71c02fbc-3460-4a2a-94da-b5e0f526f065",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+							"pm.test(\"leadId is correct\", function () {",
+							"    pm.expect(pm.response.json().leadId).to.eql(pm.variables.get(\"leadId\"))});",
+							"pm.test(\"One significant persons Id is returned\", function(){",
+							"    pm.expect(pm.response.json().significantPersonIds.length).to.eql(1);",
+							"});",
+							"    ",
+							"let response = pm.response.json();",
+							"let significantPersonId = response.significantPersonIds[0];",
+							"pm.variables.set(\"significantPersonId\", significantPersonId);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "fc1a56d1-c820-4401-9528-9bc532abebc9",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"significantPersons\": [\n        {\n            \"firstName\": \"Jacobo\",\n            \"surname\": \"Piñeiro\",\n            \"typeOfPerson\": \"director\",\n            \"address\": {\n                \"line1\": \"1 High Street\",\n                \"line2\": \"Victoria\",\n                \"line3\": \"Greater\",\n                \"city\": \"London\",\n                \"region\": \"SE England\",\n                \"areaCode\": \"SW19 2EJ\",\n                \"country\": \"UK\"\n            },\n            \"dateOfBirth\": {\n                \"year\": 1990,\n                \"month\": 10,\n                \"day\": 10\n            },\n            \"percentageOwned\": 40,\n            \"emailAddress\": \"jacobo.pineiro@youlend.com\",\n            \"mobilePhoneNumber\": \"+447380667163\",\n            \"nationality\": \"Spanish\",\n            \"niNumber\": \"HH673776R\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/significantpersons",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"significantpersons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Significant person KYC  Proof of Identity*",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "26298484-a2ba-4b28-a676-1837ff245cd4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+							"",
+							"pm.test(\"leadId is correct\", function () {",
+							"    pm.expect(pm.response.json().leadId).to.eql(pm.variables.get(\"leadId\"))});",
+							"",
+							"pm.test(\"significantPersonId is correct\", function () {",
+							"    pm.expect(pm.response.json().significantPersonId).to.eql(pm.variables.get(\"significantPersonId\"))});",
+							"    ",
+							"pm.test(\"documentId returned\", function () {",
+							"    pm.expect(pm.response.json().documentId).to.be.a('string')});    "
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					],
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents/significantpersons/{{significantPersonId}}/proofOfIdentity",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents",
+						"significantpersons",
+						"{{significantPersonId}}",
+						"proofOfIdentity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Significant person KYC Proof of Address*",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "26298484-a2ba-4b28-a676-1837ff245cd4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+							"",
+							"pm.test(\"leadId is correct\", function () {",
+							"    pm.expect(pm.response.json().leadId).to.eql(pm.variables.get(\"leadId\"))});",
+							"",
+							"pm.test(\"significantPersonId is correct\", function () {",
+							"    pm.expect(pm.response.json().significantPersonId).to.eql(pm.variables.get(\"significantPersonId\"))});",
+							"    ",
+							"pm.test(\"documentId returned\", function () {",
+							"    pm.expect(pm.response.json().documentId).to.be.a('string')});    "
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					],
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents/significantpersons/{{significantPersonId}}/proofOfAddress",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents",
+						"significantpersons",
+						"{{significantPersonId}}",
+						"proofOfAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KYC Bank Statement*",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a16f7bce-1cca-4d2a-bcd8-4ca7599c0668",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+							"",
+							"pm.test(\"leadId is correct\", function () {",
+							"    pm.expect(pm.response.json().leadId).to.eql(pm.variables.get(\"leadId\"))});",
+							"    ",
+							"pm.test(\"documentId returned\", function () {",
+							"    pm.expect(pm.response.json().documentId).to.be.a('string')});    "
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					},
+					{
+						"key": "file",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					],
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents/bankstatements",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents",
+						"bankstatements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get KYC documents Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "79951db6-01b8-4263-80cc-c6d2c7a4216d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { ",
+							"    pm.response.to.have.status(200); });",
+							"  ",
+							"pm.test(\"companyDocuments returned and is an object\", function() {",
+							"    pm.expect(pm.response.json().companyDocuments).to.be.an(\"object\")}); ",
+							"pm.test(\"significantPersonDocuments returned and is an array\", function() {",
+							"    pm.expect(pm.response.json().significantPersonDocuments).to.be.an(\"array\")});",
+							"pm.test(\"bankStatements returned and is an object\", function() {",
+							"    pm.expect(pm.response.json().bankStatements).to.be.a(\"object\")});",
+							"pm.test(\"leadId is correct\", function() {",
+							"    pm.expect(pm.response.json().leadId).to.equal(pm.variables.get(\"leadId\"))});",
+							"pm.test(\"country returned\", function() {",
+							"    pm.expect(pm.response.json().country).to.be.a(\"string\")});",
+							"pm.test(\"companYType is correct\", function() {",
+							"    pm.expect(pm.response.json().companyType).to.equal(pm.variables.get(\"companyType\"))});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Payment Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e1431eca-e95d-4533-9689-903bbf17f318",
+						"exec": [
+							"pm.test(\"leadId isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().leadId).to.equal(pm.variables.get(\"leadId\"))});\r",
+							"\r",
+							"pm.test(\"paymentDataDocuments returned and is an object\", function () {\r",
+							"    pm.expect(pm.response.json().paymentDataDocuments).to.be.an(\"object\")});\r",
+							"    \r",
+							"pm.test(\"gatewaysUsed returned and is an array\", function () {\r",
+							"    pm.expect(pm.response.json().gatewaysUsed).to.be.an(\"array\")});\r",
+							"    \r",
+							"pm.test(\"currencyISOCode is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.currencyISOCode).to.equal(pm.variables.get(\"loanCurrencyISOCode\"))});\r",
+							"    \r",
+							"pm.test(\"monthlyRevenue is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.monthlyRevenue).to.equal(pm.variables.get(\"monthlyCardRevenue\"))});\r",
+							"    \r",
+							"pm.test(\"monthlyRevenueSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.monthlyRevenueSliderIndex).to.be.an(\"number\")});\r",
+							"\r",
+							"pm.test(\"numberOfPaymentsPerMonth is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.numberOfPaymentsPerMonth).to.equal(pm.variables.get(\"numberOfPaymentsPerMonth\"))});\r",
+							"    \r",
+							"pm.test(\"numberOfPaymentsPerMonthSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.numberOfPaymentsPerMonthSliderIndex).to.be.an(\"number\")});\r",
+							"    \r",
+							"pm.test(\"sweepPercentage is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.sweepPercentage).to.equal(pm.variables.get(\"sweepPercentage\"))});\r",
+							"    \r",
+							"pm.test(\"timeOperating is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.timeOperating).to.equal(pm.variables.get(\"monthsTrading\"))});\r",
+							"    \r",
+							"pm.test(\"timeOperatingSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.timeOperatingSliderIndex).to.be.an(\"number\")});\r",
+							"    \r",
+							"pm.test(\"sizeOfAdvance is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.sizeOfAdvance).to.equal(pm.variables.get(\"loanAmount\"))});\r",
+							"\r",
+							"pm.test(\"sizeOfAdvanceSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.sizeOfAdvanceSliderIndex).to.be.an(\"number\")});\r",
+							"    \r",
+							"pm.test(\"howMuchToPayBack returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.howMuchToPayBack).to.be.an(\"number\")});\r",
+							"\r",
+							"pm.test(\"payBackInMonths returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.payBackInMonths).to.be.an(\"number\")}); \r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents/paymentdata",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents",
+						"paymentdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment Data*",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a16f7bce-1cca-4d2a-bcd8-4ca7599c0668",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+							"",
+							"pm.test(\"leadId is correct\", function () {",
+							"    pm.expect(pm.response.json().leadId).to.eql(pm.variables.get(\"leadId\"))});",
+							"    ",
+							"pm.test(\"documentId returned\", function () {",
+							"    pm.expect(pm.response.json().documentId).to.be.a('string')});    "
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					},
+					{
+						"key": "file",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/JacoboPineiro/Desktop/Test Data/PaymentData1.pdf"
+						}
+					],
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents/paymentdata",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents",
+						"paymentdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment Gateway",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a16f7bce-1cca-4d2a-bcd8-4ca7599c0668",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "file",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"gatewayName\": \"amex\"\n}",
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/paymentgateways",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"paymentgateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Payment Data Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e1431eca-e95d-4533-9689-903bbf17f318",
+						"exec": [
+							"pm.test(\"leadId isCorrect\", function () {\r",
+							"    pm.expect(pm.response.json().leadId).to.equal(pm.variables.get(\"leadId\"))});\r",
+							"\r",
+							"pm.test(\"paymentDataDocuments returned and is an object\", function () {\r",
+							"    pm.expect(pm.response.json().paymentDataDocuments).to.be.an(\"object\")});\r",
+							"    \r",
+							"pm.test(\"gatewaysUsed returned and is an array\", function () {\r",
+							"    pm.expect(pm.response.json().gatewaysUsed).to.be.an(\"array\")});\r",
+							"    \r",
+							"pm.test(\"currencyISOCode is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.currencyISOCode).to.equal(pm.variables.get(\"loanCurrencyISOCode\"))});\r",
+							"    \r",
+							"pm.test(\"monthlyRevenue is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.monthlyRevenue).to.equal(pm.variables.get(\"monthlyCardRevenue\"))});\r",
+							"    \r",
+							"pm.test(\"monthlyRevenueSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.monthlyRevenueSliderIndex).to.be.an(\"number\")});\r",
+							"\r",
+							"pm.test(\"numberOfPaymentsPerMonth is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.numberOfPaymentsPerMonth).to.equal(pm.variables.get(\"numberOfPaymentsPerMonth\"))});\r",
+							"    \r",
+							"pm.test(\"numberOfPaymentsPerMonthSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.numberOfPaymentsPerMonthSliderIndex).to.be.an(\"number\")});\r",
+							"    \r",
+							"pm.test(\"sweepPercentage is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.sweepPercentage).to.equal(pm.variables.get(\"sweepPercentage\"))});\r",
+							"    \r",
+							"pm.test(\"timeOperating is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.timeOperating).to.equal(pm.variables.get(\"monthsTrading\"))});\r",
+							"    \r",
+							"pm.test(\"timeOperatingSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.timeOperatingSliderIndex).to.be.an(\"number\")});\r",
+							"    \r",
+							"pm.test(\"sizeOfAdvance is correct\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.sizeOfAdvance).to.equal(pm.variables.get(\"loanAmount\"))});\r",
+							"\r",
+							"pm.test(\"sizeOfAdvanceSliderIndex returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.sizeOfAdvanceSliderIndex).to.be.an(\"number\")});\r",
+							"    \r",
+							"pm.test(\"howMuchToPayBack returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.howMuchToPayBack).to.be.an(\"number\")});\r",
+							"\r",
+							"pm.test(\"payBackInMonths returned and is an number\", function () {\r",
+							"    pm.expect(pm.response.json().calculatorData.payBackInMonths).to.be.an(\"number\")}); \r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/documents/paymentdata",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"documents",
+						"paymentdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Submit stage 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4c70021b-697c-4146-b1c1-0e188042a51b",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () { pm.response.to.have.status(200); });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {}
+				},
+				"url": {
+					"raw": "https://{{host}}.youlendapi.com/onboarding/Leads/{{leadId}}/submitonboarding",
+					"protocol": "https",
+					"host": [
+						"{{host}}",
+						"youlendapi",
+						"com"
+					],
+					"path": [
+						"onboarding",
+						"Leads",
+						"{{leadId}}",
+						"submitonboarding"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik0wUXdOMEl5TnpRMVJrRXhNa1pGTlVWRU5UQTJRalV6UWtRMVJUY3dORE0xUVVVM05rTkVRZyJ9.eyJodHRwOi8veW91bGVuZC5jb20vY2xhaW1zL2xlbmRpbmdQYXJ0bmVySWQiOiIyYjhiN2ZkMC1lNjJiLTQ2ZGYtYjc1ZC1jNjk1MzhkZTc5ZDciLCJpc3MiOiJodHRwczovL3lvdWxlbmQtc3RhZy5ldS5hdXRoMC5jb20vIiwic3ViIjoiekE5cXdiYkJaZ2k5TThsdmhzbkpMNFViejVCcWk0UGJAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vc3RhZ2luZy55b3VsZW5kYXBpLmNvbS9vbmJvYXJkaW5nIiwiaWF0IjoxNTkzNjAzMTM4LCJleHAiOjE1OTM2ODk1MzgsImF6cCI6InpBOXF3YmJCWmdpOU04bHZoc25KTDRVYno1QnFpNFBiIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.SunkbXkGafeVuI0VeaPAdgyJAHBePij329AjCpWvmRlAboi6RjPV8TqsnPMHeNTGM5T16PwbMKPCrSDN_J8hOhdD_PNoHfBPYT6vSBaghL11tP0qSZs0qkN5sIJz0h4H2ZBvzhGgt6p4sE0wCULvPI19rShYdQrvgx_45TUxd-j35OefeujZ0AkLJItrnkfPhnrsPDKc57qi55kkF8lCTBDf4_Pchh595rf1NRV3JOFKNuiSzXUQOBL6NXLIcHkoQFwCMJ1Vg8NGP9GZ-adhze2MQmE8xF3y1pjMwfJgmIeEwJfmI13aQ7R5n44FtJeFVGX5ESmzqKaDjxXfv1eKiQ",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3e45c970-823b-454a-9cd9-a83a3c5e5045",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "40894ddf-4f9b-4f89-a45c-bf41fb93f9a1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "57726d9f-9c94-4fe5-a257-cc02e5ff05f3",
+			"key": "leadId",
+			"value": ""
+		},
+		{
+			"id": "ac631ffa-50a8-42c0-be7c-f253076ea8ba",
+			"key": "significantPersonId",
+			"value": ""
+		},
+		{
+			"id": "036d165d-4036-4066-872a-cf48844b7726",
+			"key": "host",
+			"value": "staging"
+		},
+		{
+			"id": "cfe6bca9-ca8b-4bb5-a8fd-81a01c2b373a",
+			"value": ""
+		}
+	],
+	"protocolProfileBehavior": {}
+}
