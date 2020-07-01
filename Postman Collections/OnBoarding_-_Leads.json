@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "59dc2fa2-e2a5-4c8d-ba05-9e5c1b71bc4f",
-    "name": "OnBoarding - Leads",
+    "name": "OnBoarding - Leadss",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -42,7 +42,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -81,7 +81,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -120,7 +120,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"\",\t\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://staging.youlendapi.com/onboarding/Leads"
+        "url": "https://staging.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -159,7 +159,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -198,7 +198,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -237,7 +237,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -276,7 +276,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \"countryISOCode\": \"\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -314,7 +314,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \"countryISOCode\": \"PFF\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -355,7 +355,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -396,7 +396,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"DNK\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -437,7 +437,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"DNK\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -476,7 +476,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -514,7 +514,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"USD\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -552,7 +552,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"ASS\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -591,7 +591,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"123456\",\t\r\n  \"thirdPartyLeadId\": \"654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -632,7 +632,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"EUR\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -673,7 +673,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"DNK\",\r\n  \"loanCurrencyISOCode\": \"DKK\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -714,7 +714,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 10000,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -752,7 +752,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Mr Ed\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -790,7 +790,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 0,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -828,7 +828,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 0,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -869,7 +869,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -910,7 +910,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2501,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -948,7 +948,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"EUR\",\r\n\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Mr Ed\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -986,7 +986,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"EUR\",\r\n  \"monthlyCardRevenue\": 0,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1024,7 +1024,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"EUR\",\r\n  \"monthlyCardRevenue\": 0,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1065,7 +1065,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"EUR\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1106,7 +1106,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"EUR\",\r\n  \"monthlyCardRevenue\": 2501,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1144,7 +1144,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"GBR\",\r\n  \"loanCurrencyISOCode\": \"DKK\",\r\n\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Mr Ed\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1182,7 +1182,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"DKK\",\r\n  \"monthlyCardRevenue\": 0,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1220,7 +1220,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"DKK\",\r\n  \"monthlyCardRevenue\": 0,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1261,7 +1261,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"DKK\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1302,7 +1302,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"DKK\",\r\n  \"monthlyCardRevenue\": 2501,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1343,7 +1343,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 0,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1384,7 +1384,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 1,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1422,7 +1422,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": -1,\r\n  \"sweepPercentage\": 20,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1463,7 +1463,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 0,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1504,7 +1504,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1545,7 +1545,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 101,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1583,7 +1583,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": -1,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1624,7 +1624,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 100,\r\n  \"monthsTrading\": 12,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1662,7 +1662,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": -1,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1700,7 +1700,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 0,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1738,7 +1738,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 2,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1779,7 +1779,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 3,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1820,7 +1820,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1858,7 +1858,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 0,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1896,7 +1896,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 1999,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1937,7 +1937,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -1978,7 +1978,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2001,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2016,7 +2016,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2054,7 +2054,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2093,7 +2093,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Barry\",\r\n  \"companyType\": \"\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2132,7 +2132,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Barry\",\r\n  \r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2170,7 +2170,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Barry\",\r\n  \"companyType\": \"invalid\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2211,7 +2211,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2252,7 +2252,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"plc\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2293,7 +2293,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"llp\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2334,7 +2334,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"dac\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2375,7 +2375,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"soleTrader\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2416,7 +2416,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"aps\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2457,7 +2457,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"as\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2498,7 +2498,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ks\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2539,7 +2539,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ivs\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2580,7 +2580,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ivs\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2621,7 +2621,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 10000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"enkeltmandsvirksomhed\",\r\n  \"companyName\": \"Acme\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2660,7 +2660,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2699,7 +2699,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"compnyName\": \"\",\r\n  \"companyWebsite\": \"acme.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2737,7 +2737,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2775,7 +2775,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2813,7 +2813,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2852,7 +2852,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2891,7 +2891,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2929,7 +2929,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -2967,7 +2967,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"12345\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3008,7 +3008,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"123456\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3049,7 +3049,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1234567\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3090,7 +3090,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3131,7 +3131,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3172,7 +3172,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"1\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3213,7 +3213,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3251,7 +3251,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\":\"\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3289,7 +3289,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\":\"1\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3327,7 +3327,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\":\"123456\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3368,7 +3368,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"ABCDEFG\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3409,7 +3409,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"1234567\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3450,7 +3450,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n    \"line1\": \"53 A Street\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3488,7 +3488,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3524,7 +3524,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3559,7 +3559,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3594,7 +3594,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3635,7 +3635,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3676,7 +3676,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3717,7 +3717,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3758,7 +3758,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"\",\r\n    \"city\": \"Every\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3793,7 +3793,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3828,7 +3828,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"region\": \"Where\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3863,7 +3863,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3898,7 +3898,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"\",\r\n    \"areaCode\": \"HB1 1BH\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3933,7 +3933,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n    \"areaCode\": \"\",\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -3968,7 +3968,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\r\n    \"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4003,7 +4003,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\"\r\n\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4038,7 +4038,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"\"\r\n  },\r\n  \"contactPhoneNumber\": \"01234 456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4078,7 +4078,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4117,7 +4117,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4155,7 +4155,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"1\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4193,7 +4193,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"1234567\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4231,7 +4231,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"ABCDEFGH\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4272,7 +4272,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"12345678\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4313,7 +4313,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"123456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4352,7 +4352,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"12345678\",\r\n  \"contactEmailAddress\": \"\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4390,7 +4390,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"12345678\",\r\n\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4429,7 +4429,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"12345678\",\r\n  \"contactEmailAddress\": \"\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4467,7 +4467,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"12345678\",\r\n  \"contactEmailAddress\": \"nhbvvcbvcbv\",\r\n  \"notificationURL\": \"www.abc.com\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4505,7 +4505,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"123456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4543,7 +4543,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"123456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n  \"notificationURL\": \"wwwcom\",\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     },
@@ -4584,7 +4584,7 @@
           "mode": "raw",
           "raw": "{\r\n  \"thirdPartyCustomerId\": \"1234567\",\r\n  \"thirdPartyLeadId\": \"7654321\",\r\n  \"countryISOCode\": \"IRE\",\r\n  \"loanCurrencyISOCode\": \"GBP\",\r\n  \"monthlyCardRevenue\": 2500,\r\n  \"numberOfPaymentsPerMonth\": 100,\r\n  \"sweepPercentage\": 1,\r\n  \"monthsTrading\": 4,\r\n  \"loanAmount\": 2000,\r\n  \"keyContactName\": \"Bobby Dazzler\",\r\n  \"companyType\": \"ltd\",\r\n  \"companyName\": \"Company\",\t\r\n  \"companyWebsite\": \"abc.com\",\r\n  \"companyNumber\": \"1234567\",\r\n  \"vatNumber\": \"123456\",\r\n  \"mid\": \"12345678\",\r\n  \"registeredAddress\": {\r\n\t\"line1\": \"A House\",\r\n    \"line2\": \"Here\",\r\n    \"line3\": \"There\",\r\n    \"city\": \"City\",\r\n    \"region\": \"Region\",\r\n\t\"areaCode\": \"W1A W1A\",\r\n\t\"country\": \"UK\"\r\n  },\r\n  \"contactPhoneNumber\": \"123456789\",\r\n  \"contactEmailAddress\": \"bobbby@acme.com\",\r\n\r\n  \"additionalInfo\": {\r\n    \"additionalProp1\": \"This\",\r\n    \"additionalProp2\": \"That\",\r\n    \"additionalProp3\": \"Other\"\r\n  }\r\n}"
         },
-        "url": "https://{{host}}.youlendapi.com/onboarding/Leads"
+        "url": "https://{{host}}.youlendapi.com/onboarding/Leads\n"
       },
       "response": []
     }
@@ -4619,13 +4619,13 @@
   ],
   "variable": [
     {
-      "id": "86643971-e24f-4a86-bb9c-dfa12f24e381",
+      "id": "fdbfbf04-9988-4588-957d-111f5e97b013",
       "key": "lead",
       "value": "",
       "type": "string"
     },
     {
-      "id": "552c1be8-59d3-4047-b048-8dba318d521a",
+      "id": "80e73e6c-9665-4835-bce1-9a04adb0377d",
       "key": "host",
       "value": "staging",
       "type": "string"
